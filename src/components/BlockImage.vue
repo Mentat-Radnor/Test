@@ -18,7 +18,7 @@ import { ref } from 'vue';
 import BlockWrap from './BlockWrap.vue';
 import BlockLikeIcon from './BlockLikeIcon.vue';
 
-const likeCount = ref(0);
+const likeCount = ref<number>(0);
 
 const addLike = () => {
   likeCount.value += 1
